@@ -62,6 +62,7 @@ h2 {
 p {
     font-size: 16px;
     margin: 20px 0;
+    padding: 0 5px;
 }
 
 .support a {
@@ -150,9 +151,29 @@ header p {
 /*///////////// 3.2 Testimonial /////////////*/
 
 .testimonial-card {
-    padding: 30px 60px;
+    padding: 70px 150px;
     max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #899CA0;
+    background-color: white;
+    position: relative;
+}
 
+.testimonial-name {
+    display: inline-block;
+    padding: 0 0 0 30px;
+}
+
+.avatar {
+    width: 44px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.quote-img {
+    position: absolute;
+    top: 80px;
+    left: 50px;
 }
 
 /*///////////// 3.3 Support /////////////*/
@@ -164,19 +185,33 @@ header p {
 #button-support {
     color: white;
     border: none;
-    padding: 10px 30px;
+    text-decoration: none;
+    padding: 20px 40px;
+    margin-top: 30px;
+    margin-left: 5px;
     background-color: #1C2B32;
-    border-radius: 30px;
-    height: 60px;
-    margin: 0 auto;
-
+    border-radius: 40px;
 }
+
+.button-support:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.support p {
+    margin-bottom: 40px;
+}
+
+/*.button-support p {*/
+/*    vertical-align: baseline;*/
+/*}*/
 
 
 /*///////////// 3.4 Faq /////////////*/
 
 .faq-list {
     margin: 30px 0 100px 0;
+    padding: 0 5px;
 }
 
 .faq-list details{
