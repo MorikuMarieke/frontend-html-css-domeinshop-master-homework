@@ -66,11 +66,15 @@ p {
 }
 
 .support a {
-    color: #1C2B32;
+    color: #899CA0;
+}
+
+.support a:hover {
+    text-decoration: none;
 }
 
 .support a:visited {
-    color: #1C2B32;
+    color: #899CA0;
 }
 
 /*.check-domain-name {*/
@@ -96,6 +100,10 @@ p {
 
 .input-check-domain::placeholder {
     color: #1C2B32;
+}
+
+.input-check-domain:focus::placeholder {
+    color: #4d5d64;
 }
 
 .input-check-domain:focus {
